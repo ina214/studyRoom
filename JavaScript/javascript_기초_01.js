@@ -235,3 +235,39 @@ while (i <= 3) {
 1
 2
 3
+
+//
+
+break
+- 반복문을 즉시 종료.
+
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) {
+    break;
+  }
+
+  console.log(i);
+}
+
+1
+21
+4
+5
+
+//
+
+continue
+- 현재 반복만 건너뛰고 다음 반복으로 넘어가기
+
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) {
+    continue;
+  }
+
+  console.log(i);
+}
+
+1
+2
+4
+5
